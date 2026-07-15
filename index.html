@@ -1,111 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Rakesh Kumar Yadav - Unity Game Developer">
-    <meta name="keywords" content="Unity Developer, Game Developer, C#, Unity3D, Portfolio">
-    <meta name="author" content="Rakesh Kumar Yadav">
 
-    <title>Rakesh Kumar Yadav | Unity Game Developer</title>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" type="image/png" href="images/logo.png">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <title>Rakesh Yadav | Unity Developer</title>
+
+    <meta name="description"
+          content="Unity Game Developer Portfolio">
+
+    <meta name="theme-color"
+          content="#ffffff">
+
+    <!-- Apple Icons -->
+    <link rel="apple-touch-icon"
+          href="images/icon.png">
 
     <!-- Font Awesome -->
     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="style.css">
+
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
+<!--==========================================================
+HEADER
+===========================================================-->
 
-<header class="header">
+<header id="header">
 
     <div class="container">
 
         <a href="#" class="logo">
-            RKY
+
+            <div class="logo-circle">
+                R
+            </div>
+
+            <span>Rakesh</span>
+
         </a>
 
-        <nav class="navbar">
+        <nav>
 
             <ul class="nav-links">
 
-                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#home">Home</a></li>
+
                 <li><a href="#about">About</a></li>
+
                 <li><a href="#skills">Skills</a></li>
+
                 <li><a href="#projects">Projects</a></li>
+
                 <li><a href="#experience">Experience</a></li>
 
             </ul>
 
         </nav>
 
-        <div class="menu-btn">
-            <i class="fas fa-bars"></i>
+        <div class="header-actions">
+
+            <button class="theme-toggle" aria-label="Toggle Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <button class="menu-btn" aria-label="Open Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
         </div>
 
     </div>
 
 </header>
 
-<!-- ================= HERO ================= -->
+<!--==========================================================
+HERO
+===========================================================-->
 
-<section class="hero" id="home">
+<section id="home" class="hero">
+
+    <!-- Floating Background -->
+
+    <div class="hero-background">
+
+        <div class="gradient one"></div>
+
+        <div class="gradient two"></div>
+
+        <div class="blur-circle one"></div>
+
+        <div class="blur-circle two"></div>
+
+        <div class="grid-overlay"></div>
+
+    </div>
 
     <div class="container hero-container">
 
+        <!-- LEFT -->
+
         <div class="hero-content">
 
-            <h3>Hello, I'm</h3>
+            <span class="hero-tag">
 
-            <h1>Rakesh Kr Yadav</h1>
+                Unity Developer
 
-            <h2>
-                <span class="typing"></span>
-            </h2>
+            </span>
+
+            <h1>
+
+                Building The
+                <br>
+
+                <span>
+                    Digital World
+                </span>
+
+            </h1>
 
             <p>
 
-                Unity Game Developer with 2+ years of experience creating
-                mobile, WebGL, and multiplayer games using Unity and C#.
-                Passionate about gameplay programming, networking,
-                optimization, and building polished user experiences.
+                Unity Game Developer with experience in
+                Mobile Games, WebGL, AR/VR,
+                Multiplayer Systems and Interactive Applications.
 
             </p>
 
             <div class="hero-buttons">
 
-                <a href="RakeshKr_Yadav.pdf" class="btn primary" download>
-                    Download Resume
+                <a href="RakeshKr_Yadav.pdf"
+                   class="btn primary">
+
+                    View Resume
+
                 </a>
 
-                <a href="#projects" class="btn secondary">
+                <a href="#projects"
+                   class="btn secondary">
+
                     View Projects
+
                 </a>
 
             </div>
 
-            <div class="social-icons">
+            <div class="hero-social">
+
+                <a href="https://www.linkedin.com/in/rakesh-kr-yadav/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
 
                 <a href="https://github.com/rakeshkryadav" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
 
-                <a href="https://www.linkedin.com/in/rakesh-kr-yadav/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
+                <a href="mailto:rakesh.kr.yadav.008@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
                 </a>
 
-                <a href="mailto:rakesh.kr.yadav.008@gmail.com">
-                    <i class="fas fa-envelope"></i>
-                </a>
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="hero-image">
+
+            <div class="image-card">
+
+                <img src="images/introductionimage.jpg"
+                     alt="Rakesh">
+
+                <div class="floating-card card-1">
+
+                    <i class="fa-brands fa-unity"></i>
+
+                    <span>Unity</span>
+
+                </div>
+
+                <div class="floating-card card-2">
+
+                    <i class="fa-solid fa-vr-cardboard"></i>
+
+                    <span>AR / VR</span>
+
+                </div>
+
+                <div class="floating-card card-3">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <span>C#</span>
+
+                </div>
 
             </div>
 
@@ -113,80 +217,160 @@
 
     </div>
 
-</section>
+    <!-- Bottom Scroll Indicator -->
 
-<!-- ================= ABOUT ================= -->
+    <div class="scroll-indicator">
 
-<section class="about section" id="about">
+        <span>Scroll</span>
 
-    <div class="container">
+        <div class="mouse">
 
-        <div class="section-title">
-
-            <h2>About Me</h2>
-
-            <p>Who I Am</p>
+            <div class="wheel"></div>
 
         </div>
 
-        <div class="about-content">
+    </div>
+
+</section>
+<!--==========================================================
+ABOUT
+===========================================================-->
+
+<section id="about" class="about section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>About Me</span>
+
+            <h2>
+                Designing Experiences,<br>
+                Not Just Games.
+            </h2>
+
+            <p>
+                Passionate about building polished applications that combine
+                creativity, performance, and user experience.
+            </p>
+
+        </div>
+
+        <div class="about-grid">
+
+            <!-- Left Card -->
 
             <div class="about-image">
 
-                <img src="images/profileimage.png"
-                     alt="Profile">
+                <div class="glass-card">
+
+                    <img src="images/profileimage.png"
+                         alt="Rakesh Yadav">
+
+                </div>
 
             </div>
 
-            <div class="about-text">
+            <!-- Right -->
 
-                <h3>Unity Game Developer</h3>
+            <div class="about-content">
+
+                <h3>
+
+                    Hello, I'm Rakesh.
+
+                </h3>
 
                 <p>
 
-                    I specialize in Unity game development with strong
-                    experience in gameplay programming, multiplayer
-                    networking, REST API integration, Socket.IO,
-                    Spine Animation, monetization systems, and performance
-                    optimization.
+                    I am a Unity Developer focused on creating immersive
+                    applications using Unity, C#, AR/VR, WebGL and
+                    multiplayer technologies.
+
+                    My goal is to build products that are not only functional
+                    but also visually elegant and highly optimized.
 
                 </p>
 
                 <p>
 
-                    I have worked on Android, WebGL, and multiplayer games,
-                    delivering scalable and optimized applications while
-                    maintaining clean, reusable code.
+                    During my professional journey I have worked on mobile
+                    games, WebGL experiences, simulation projects,
+                    educational VR applications and multiplayer systems.
 
                 </p>
+
+                <!-- Stats -->
+
+                <div class="about-stats">
+
+                    <div class="stat-card">
+
+                        <h4>2</h4>
+
+                        <span>Years Experience</span>
+
+                    </div>
+
+                    <div class="stat-card">
+
+                        <h4>6+</h4>
+
+                        <span>Projects</span>
+
+                    </div>
+
+                    <div class="stat-card">
+
+                        <h4>5</h4>
+
+                        <span>Technologies</span>
+
+                    </div>
+
+                    <div class="stat-card">
+
+                        <h4>BCA</h4>
+
+                        <span>Education</span>
+
+                    </div>
+
+                </div>
+
+                <!-- Quick Info -->
 
                 <div class="about-info">
 
                     <div>
 
-                        <span>Name</span>
-                        <p>Rakesh Kr Yadav</p>
+                        <label>Name</label>
+
+                        <span>Rakesh Kr Yadav</span>
 
                     </div>
 
                     <div>
 
-                        <span>Experience</span>
-                        <p>2+ Years</p>
+                        <label>Technologies</label>
+
+                        <span>Unity, C#, AR/VR, WebGL, Blender</span>
 
                     </div>
 
                     <div>
 
-                        <span>Location</span>
-                        <p>India</p>
+                        <label>Email</label>
+
+                        <span>rakesh.kr.yadav.008@email.com</span>
 
                     </div>
 
                     <div>
 
-                        <span>Email</span>
-                        <p>rakesh.kr.yadav.008@email.com</p>
+                        <label>Location</label>
+
+                        <span>Uttar Pradesh, India</span>
 
                     </div>
 
@@ -200,65 +384,293 @@
 
 </section>
 
-<!-- ================= SKILLS ================= -->
+<!--==========================================================
+SKILLS
+===========================================================-->
 
-<section class="skills section" id="skills">
+<section id="skills" class="skills section">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading">
 
-            <h2>Skills</h2>
+            <span>Skills</span>
 
-            <p>Technologies I Work With</p>
+            <h2>
+                Technologies I Work With
+            </h2>
+
+            <p>
+
+                Modern tools used to create polished,
+                scalable and optimized digital products.
+
+            </p>
 
         </div>
 
         <div class="skills-grid">
 
-            <div class="skill-card">Unity</div>
-            <div class="skill-card">C#</div>
-            <div class="skill-card">RESTful API</div>
-            <div class="skill-card">Socket.IO</div>
-            <div class="skill-card">AR/VR</div>
-            <!-- <div class="skill-card">Android</div>
-            <div class="skill-card">iOS</div>
-            <div class="skill-card">MetaQuest</div>
-            <div class="skill-card">WebGL</div>
-            <div class="skill-card">Windows</div> -->
+            <div class="skill-card">
+
+                <div class="skill-category">Game Engine</div>
+
+                <i class="fa-brands fa-unity"></i>
+
+                <h3>Unity</h3>
+
+                <p>
+
+                    Cross-platform development,
+                    Optimization,
+                    monetization.
+
+                </p>
+
+                <div class="skill-level">
+                    <div class="skill-progress" style="width:100%"></div>
+                </div>
+
+                <div class="skill-percent">
+                    <span>Experience</span>
+                    <span>2 Years</span>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-category">Programming</div>
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>C#</h3>
+
+                <p>
+
+                    Gameplay systems,
+                    architecture and
+                    optimization.
+
+                </p>
+
+                <div class="skill-level">
+                    <div class="skill-progress" style="width:100%"></div>
+                </div>
+
+                <div class="skill-percent">
+                    <span>Experience</span>
+                    <span>2 Years</span>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-category">World Interaction</div>
+
+                <i class="fa-solid fa-cube"></i>
+
+                <h3>2D/3D Development</h3>
+
+                <p>
+
+                    Physics,
+                    Spine,
+                    Animation,
+                    Lighting,
+                    UI and Effects.
+
+                </p>
+
+                <div class="skill-level">
+                    <div class="skill-progress" style="width:100%"></div>
+                </div>
+
+                <div class="skill-percent">
+                    <span>Experience</span>
+                    <span>2 Years</span>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-category">Extended Reality</div>
+
+                <i class="fa-solid fa-vr-cardboard"></i>
+
+                <h3>AR / VR</h3>
+
+                <p>
+
+                    AR Foundation,
+                    XR Interaction Toolkit,
+                    MindAR.
+
+                </p>
+
+                <div class="skill-level">
+                    <div class="skill-progress" style="width:100%"></div>
+                </div>
+
+                <div class="skill-percent">
+                    <span>Experience</span>
+                    <span>4 Months</span>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-category">Networking</div>
+
+                <i class="fa-solid fa-network-wired"></i>
+
+                <h3>Multiplayer</h3>
+
+                <p>
+
+                    RESTful APIs,
+                    Socket.IO,
+                    Firebase.
+
+                </p>
+
+                <div class="skill-level">
+                    <div class="skill-progress" style="width:100%"></div>
+                </div>
+
+                <div class="skill-percent">
+                    <span>Experience</span>
+                    <span>1 Year</span>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-category">Platform</div>
+
+                <i class="fa-solid fa-desktop"></i>
+
+                <h3>Platforms</h3>
+
+                <p>
+
+                    Android, iOS, WebGL, Windows, Meta Quest.
+
+                </p>
+
+                <div class="skill-level">
+                    <div class="skill-progress" style="width:100%"></div>
+                </div>
+
+                <div class="skill-percent">
+                    <span>No of Platforms</span>
+                    <span>5</span>
+                </div>
+
+            </div>
 
         </div>
 
     </div>
 
 </section>
+<!--==========================================================
+PROJECTS
+===========================================================-->
 
-<!-- ================= PROJECTS ================= -->
-
-<section class="projects section" id="projects">
+<section id="projects" class="projects section">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading">
 
-            <h2>Projects</h2>
+            <span>Portfolio</span>
 
-            <p>Featured Work</p>
+            <h2>
+                Projects
+            </h2>
+
+            <p>
+
+                A collection of products I've built across
+                mobile, WebGL, AR/VR and simulation.
+
+            </p>
 
         </div>
 
+        <!-- Featured Project -->
+
+        <article class="featured-project glass-card">
+
+            <div class="project-image">
+
+                <img src="images/vrlearningenvironment.png"
+                    alt="Featured Project">
+
+            </div>
+
+            <div class="project-info">
+
+                <div class="skill-category">VR Game</div>
+
+                <h3>
+
+                    VR Learning environment
+
+                </h3>
+
+                <p>
+
+                    VR Learning environment provides a small learning platform from kid.
+                    Where they can interact with the virtual environment.
+                    User receives audio and visual feedback for better learning experience.
+
+                </p>
+
+                <div class="project-tech">
+
+                    <span>Unity 3D</span>
+                    <span>C#</span>
+                    <span>XR Interaction Toolkit</span>
+                    <span>Blender</span>
+                    <span>Meta Quest</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/rakeshkryadav/VR-Learning-Environment" target="_blank" class="btn primary">GitHub</a>
+                    <a href="https://drive.google.com/file/d/1KwWmFRDVReBW9POQN-H3PGVSHmyqmrJP/view" target="_blank" class="btn secondary">APK</a>
+                    <a href="https://drive.google.com/file/d/1Nat6f8StBEBtH57Wym5xhEf9pgEM4LzO/view" target="_blank" class="btn secondary">View Demo</a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <!-- Other Projects -->
+
         <div class="project-grid">
 
-            <div class="project-card">
+            <article class="project-card glass-card">
+
+                <div class="skill-category">Android / iOS Game</div>
 
                 <img src="images/kalam.webp" alt="Project">
 
                 <div class="project-content">
 
-                    <h3>Kalam : Child Learning Game</h3>
+                    <h3>
 
-                    <b>Technologies</b> Unity2d, C#, RESTful API<br>
-                    <b>Platform</b> Android, iOS
+                        Kalam
+
+                    </h3>
 
                     <p>
 
@@ -269,55 +681,38 @@
 
                     </p>
 
-                    <a href="https://play.google.com/store/apps/details?id=com.kids.Kalam&hl=en" target="_blank">
-                        View on Play Store
-                    </a>
-                    <a href="https://apps.apple.com/us/app/kalam-app/id6753069719" target="_blank">
-                        App Store
-                    </a>
+                    <div class="project-tech">
+
+                        <span>Unity 2D</span>
+                        <span>RESTful API</span>
+                        <span>C#</span>
+
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://apps.apple.com/us/app/kalam-app/id6753069719" target="_blank" class="btn secondary">iOS</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.kids.Kalam&hl=en" target="_blank" class="btn secondary">Android</a>
+
+                    </div>
 
                 </div>
 
-            </div>
+            </article>
 
-            <div class="project-card">
+            <article class="project-card glass-card">
 
-                <img src="images/acex.png" alt="Project">
-
-                <div class="project-content">
-
-                    <h3>AceX : Slot Game</h3>
-
-                    <b>Technologies</b> Unity2d, C#, Spine, RESTful API, Socket.IO<br>
-                    <b>Platform</b> WebGL
-
-                    <p>
-
-                        Developed reel and reward animation systems using Unity and Spine.
-                        Integrated Socket.IO for real-time communication with backend services.
-                        Implemented special visual effects and gameplay animations.
-                        Optimized WebGL performance for desktop and mobile browsers.
-
-                    </p>
-
-                    <a href="https://superace.testsdlc.in/" target="_blank">
-                        View Demo
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="project-card">
+                <div class="skill-category">iOS Game</div>
 
                 <img src="images/thewild.webp" alt="Project">
 
                 <div class="project-content">
 
-                    <h3>The Wild : Action Game</h3>
+                    <h3>
 
-                    <b>Technologies</b> Unity2D, C#, Maya, RESTful API<br>
-                    <b>Platform</b> iOS
+                        The Wild
+
+                    </h3>
 
                     <p>
 
@@ -328,55 +723,38 @@
 
                     </p>
 
-                    <a href="https://apps.apple.com/us/app/thewild/id6742405545" target="_blank">
-                        View on App Store
-                    </a>
+                    <div class="project-tech">
+
+                        <span>Unity 3D</span>
+                        <span>C#</span>
+                        <span>Maya</span>
+                        <span>RESTful API</span>
+
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://apps.apple.com/us/app/thewild/id6742405545" target="_blank" class="btn secondary">iOS</a>
+
+                    </div>
 
                 </div>
 
-            </div>
+            </article>
 
-            <div class="project-card">
+            <article class="project-card glass-card">
 
-                <img src="images/vrlearningenvironment.png" alt="Project">
-
-                <div class="project-content">
-
-                    <h3>VR Learning environment : VR Game</h3>
-
-                    <b>Technologies</b> Unity3D, C#, Blender, AR Foundation<br>
-                    <b>Platform</b> Meta Quest
-
-                    <p>
-
-                        VR Learning environment provides a small learning platform from kid.
-                        Where they can interact with the virtual environment.
-                        User receives audio and visual feedback for better learning experience.
-
-                    </p>
-
-                    <a href="https://drive.google.com/file/d/1Nat6f8StBEBtH57Wym5xhEf9pgEM4LzO/view" target="_blank">
-                        View Video
-                    </a>
-
-                    <a href="https://drive.google.com/file/d/1KwWmFRDVReBW9POQN-H3PGVSHmyqmrJP/view" target="_blank">
-                        Download APK
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="project-card">
+                <div class="skill-category">Android Game</div>
 
                 <img src="images/amazingbrickclone.png" alt="Project">
 
                 <div class="project-content">
 
-                    <h3>Amazing Brick Clone : 2D Game</h3>
+                    <h3>
 
-                    <b>Technologies</b> Unity2D, C#<br>
-                    <b>Platform</b> Android
+                        Amazing Brick Clone
+
+                    </h3>
 
                     <p>
 
@@ -385,13 +763,66 @@
 
                     </p>
 
-                    <a href="https://drive.google.com/file/d/1ln_Q_1zi0MxN_avXJ3L6w-7acm0HRFw9/view" target="_blank">
-                        Download APK
-                    </a>
+                    <div class="project-tech">
+
+                        <span>Unity 2D</span>
+                        <span>C#</span>
+
+                    </div>
+                    
+                    <div class="project-links">
+
+                        <a href="https://github.com/rakeshkryadav/Amazing-Brick-Clone" target="_blank" class="btn primary">GitHub</a>
+                        <a href="https://drive.google.com/file/d/1ln_Q_1zi0MxN_avXJ3L6w-7acm0HRFw9/view" target="_blank" class="btn secondary">APK</a>
+
+                    </div>
 
                 </div>
 
-            </div>
+            </article>
+
+            <article class="project-card glass-card">
+
+                <div class="skill-category">WebGL Game</div>
+
+                <img src="images/acex.png" alt="Project">
+
+                <div class="project-content">
+
+                    <h3>
+
+                        AceX
+
+                    </h3>
+
+                    <p>
+
+                        Developed reel and reward animation systems using Unity and Spine.
+                        Integrated Socket.IO for real-time communication with backend services.
+                        Implemented special visual effects and gameplay animations.
+                        Optimized WebGL performance for desktop and mobile browsers.
+
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>Unity 2D</span>
+                        <span>Socket.IO</span>
+                        <span>RESTful API</span>
+                        <span>Spine Animation</span>
+                        <span>C#</span>
+
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://superace.testsdlc.in/" target="_blank" class="btn secondary">Site</a>
+
+                    </div>
+
+                </div>
+
+            </article>
 
         </div>
 
@@ -399,56 +830,140 @@
 
 </section>
 
-<!-- ================= EXPERIENCE ================= -->
+<!--==========================================================
+EXPERIENCE
+===========================================================-->
 
-<section class="experience section" id="experience">
+<section id="experience" class="experience section">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading">
 
-            <h2>Experience</h2>
+            <span>Career</span>
 
-            <p>Professional Journey</p>
+            <h2>
+
+                Professional Experience
+
+            </h2>
+
+            <p>
+
+                My journey as a Unity Developer.
+
+            </p>
 
         </div>
 
         <div class="timeline">
 
-            <div class="timeline-item">
+            <article class="timeline-item">
 
-                <h3>Unity Game Developer - SDLC Corp</h3>
+                <div class="timeline-dot"></div>
 
-                <span>Jan 2025 - May 2026</span>
+                <div class="timeline-card glass-card">
 
-                <p>
+                    <span class="timeline-year">
 
-                    Developed player controller and NPC AI systems for a 3D hunting game.
-                    Implemented REST API integrations for gameplay services and player data management.
-                    Built real-time multiplayer communication systems using Socket.IO.
-                    Collaborated with designers and artists to implement gameplay features and optimize user experience
+                        Jun 2026 — Present
 
-                </p>
+                    </span>
 
-            </div>
+                    <h3>
 
-            <div class="timeline-item">
+                        AR/VR Developer (Unity)
 
-                <h3>Unity Game Developer - PlatypusBox</h3>
+                    </h3>
 
-                <span>Aug 2024 - Dec 2025</span>
+                    <h4>
 
-                <p>
+                        UFS Digital Pvt Ltd
 
-                    Developed and launched 2D mobile game features using Unity.
-                    Implemented rewarded advertisements using Unity Ads SDK, improving player engagement.
-                    Integrated Google AdMob and In-App Purchase systems for monetization.
-                    Developed gameplay mechanics, animations, and UI interactions.
+                    </h4>
 
+                    <p>
 
-                </p>
+                        Developed AR experiences with Three.js.
 
-            </div>
+                    </p>
+
+                </div>
+
+            </article>
+
+            <article class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card glass-card">
+
+                    <span class="timeline-year">
+
+                        Jan 2025 — May 2026
+
+                    </span>
+
+                    <h3>
+
+                        Unity Game Developer
+
+                    </h3>
+
+                    <h4>
+
+                        SDLC Corp
+
+                    </h4>
+
+                    <p>
+
+                        Developed mobile games,
+                        WebGL experiences,
+                        multiplayer systems
+                        and simulation projects.
+
+                    </p>
+
+                </div>
+
+            </article>
+
+            <article class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card glass-card">
+
+                    <span class="timeline-year">
+
+                        Aug 2024 — Dec 2024
+
+                    </span>
+
+                    <h3>
+
+                        Unity Game Developer
+
+                    </h3>
+
+                    <h4>
+
+                        PlatypusBox
+
+                    </h4>
+
+                    <p>
+
+                        Developed hyper casual games,
+                        gamesplay experiences
+                        and integrated Ads monetization systems.
+
+                    </p>
+
+                </div>
+
+            </article>
 
         </div>
 
@@ -456,32 +971,98 @@
 
 </section>
 
-<!-- ================= FOOTER ================= -->
+<!--==========================================================
+FOOTER
+===========================================================-->
 
 <footer>
 
     <div class="container">
 
-        <p>
+        <div class="footer-content">
 
-            © 2026 Rakesh Kumar Yadav.
-            All Rights Reserved.
+            <div class="footer-logo">
 
-        </p>
+                <div class="logo-circle">
+
+                    R
+
+                </div>
+
+                <h3>
+
+                    Rakesh Kr Yadav
+
+                </h3>
+
+            </div>
+
+            <p>
+
+                Unity Developer • AR/VR • WebGL • Mobile Games
+
+            </p>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#projects">Projects</a>
+
+            </div>
+
+            <div class="footer-social">
+
+                <a href="https://www.linkedin.com/in/rakesh-kr-yadav/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://github.com/rakeshkryadav" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="mailto:rakesh.kr.yadav.008@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+            <div class="copyright">
+
+                © 2026 Rakesh Kr Yadav.
+
+            </div>
+
+        </div>
 
     </div>
 
 </footer>
 
-<!-- Back to Top -->
+<!--==========================================================
+BACK TO TOP
+===========================================================-->
 
-<button id="backToTop">
-    <i class="fas fa-arrow-up"></i>
+<button id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
 </button>
 
-<!-- JavaScript -->
+<!--==========================================================
+CURSOR GLOW
+===========================================================-->
 
-<script src="js/script.js"></script>
+<div class="cursor-glow"></div>
+
+<!--==========================================================
+JAVASCRIPT
+===========================================================-->
+
+<script src="script.js"></script>
+
+<div class="cursor-glow"></div>
 
 </body>
+
 </html>
